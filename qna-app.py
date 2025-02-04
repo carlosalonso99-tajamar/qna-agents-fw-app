@@ -11,10 +11,9 @@ ai_endpoint = os.getenv('AI_SERVICE_ENDPOINT')
 ai_key = os.getenv('AI_SERVICE_KEY')
 
 # Define project names and example questions
-project_names = ["CrewAi", "Swarm", "LangGraph"]
+project_names = ["CrewAi", "LangGraph"]
 example_questions = {
     "CrewAi": ["How does CrewAi work?", "What are the advantages of CrewAi?", "How does CrewAi integrate with other systems?"],
-    "Swarm": ["What is Swarm and how is it used?", "What are the applications of Swarm?", "How does Swarm compare to other similar tools?"],
     "LangGraph": ["What does LangGraph do?", "How is a graph structured in LangGraph?", "What are the use cases of LangGraph?"]
 }
 
