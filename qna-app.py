@@ -6,7 +6,7 @@ from azure.ai.language.questionanswering import QuestionAnsweringClient
 import re
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 ai_endpoint = os.getenv('AI_SERVICE_ENDPOINT')
 ai_key = os.getenv('AI_SERVICE_KEY')
 
